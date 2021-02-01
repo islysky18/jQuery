@@ -1,0 +1,28 @@
+table {
+  width: 100%;
+  font: 17px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+table,
+th,
+td {
+  border: solid 1px #ddd;
+  /* border-collapse: collapse; */
+  /* padding: 2px 3px; */
+  text-align: center;
+}
+
+h1 {
+  color: navy;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+
+#moreDetails {
+  border: solid 1px #ddd;
+  /* border-collapse: collapse; */
+  padding: 2px 3px;
+  text-align: center;
+}

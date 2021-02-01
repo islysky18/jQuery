@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="student.js"></script>
+
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1>Student Manage System</h1>
+    <!-- <button class="btn btn-primary" id="btn">Show all details</button> -->
+    <div class="container" style="text-align: center;">
+        <select id="dropdown">
+            <option></option>
+            <option value='20'>20</option>
+            <option value='50'>50</option>
+            <option value='100'>100</option>
+        </select>
+        <input id="myInput" type="text" placeholder="Search..">
+    </div>
+    <div id="showData">
+        <table class="table table-bordered table-striped" id="student_table">
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                    <th>Location</th>
+                    <th>Phone</th>
+                    <th>Address</th>
+                    <th>Communication</th>
+                    <th>Permanent</th>
+                    <th>Marks</th>
+                    <th class="toggleColumns" id='studentMarks'>English</th>
+                    <th class="toggleColumns" id='studentMarks'>Science</th>
+                    <th class="toggleColumns" id='studentMarks'>Computers</th>
+                    <th class="toggleColumns" id='studentMarks'>Hardware</th>
+                    <th><button class="btn btn-primary" id="moreDetails">More Details</button></th>
+
+                </tr>
+            </thead>
+            <tbody id="tdata">
+
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
